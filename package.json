@@ -1,0 +1,29 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "Vector tile conversion from Esri geodatabase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unvt/gdb2vt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/unvt/gdb2vt/issues"
+  },
+  "homepage": "https://github.com/unvt/gdb2vt#readme",
+  "dependencies": {
+    "@mapbox/tilebelt": "^1.0.2",
+    "better-queue": "^3.8.10",
+    "child_process": "^1.0.2",
+    "config": "^3.3.7",
+    "fs": "^0.0.1-security",
+    "hjson": "^3.2.2",
+    "json-text-sequence": "^1.0.1"
+  }
+}

@@ -132,7 +132,6 @@ const queue = new Queue(async (t, cb) => {
 const queueTasks = () => {
     for (let tile of srcdb.tiles){
     //for (let tile of [[6,32,20],[6,32,21],[6,32,22],[6,32,23],[6,33,20],[6,33,21],[6,33,22]]){
-    //for (let key of ['bndl1', 'bndl2', 'bndl3', 'bndl4', 'bndl5', 'bndl6']){
         const key = `${tile[0]}-${tile[1]}-${tile[2]}`
         queue.push({
             key: key,

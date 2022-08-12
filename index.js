@@ -55,10 +55,10 @@ const queue = new Queue(async (t, cb) => {
             maxzoom: srcdb.maxzoom
         }
         delete f.properties.SHAPE_Length
-        if ((f.properties.contour % 100) == 0){
+        if ((f.properties.contour % 200) == 0){
             f.tippecanoe.minzoom = srcdb.minzoom
-        } else if ((f.properties.contour % 40) == 0){
-            f.tippecanoe.minzoom = srcdb.minzoom + 2
+        } else if ((f.properties.contour % 100) == 0){
+            f.tippecanoe.minzoom = srcdb.minzoom + 1
         } else {
             f.tippecanoe.minzoom = srcdb.minzoom + 3
         }

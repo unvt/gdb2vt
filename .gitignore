@@ -1,4 +1,6 @@
 node_modules
 mbtiles/*
 geojsons/*
+test_area_*
+
 

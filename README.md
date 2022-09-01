@@ -40,7 +40,7 @@ Because my source gdb had only a single layer, I did not specify the layer name 
 If you wants to add layer, you can do so by adding layername in the ogr2ogr parameters (layer name will be added after the name of the source gdb.).
 
 # Error
-I had some error in my PC.
+I had some error in my PC. It was solved by increasing the processing memory.
 2-3: 6-14-24, 6-15-23, 6-15-24, 
 4-5: 5-10-16, 5-11-16, 6-19-32, 6-19-33, 6-22-35, 6-22-36, 6-22-37, 6-23-35,  
 6-7: 6-30-30,  

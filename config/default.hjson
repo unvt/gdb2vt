@@ -2,19 +2,14 @@
     minzoom: 10
     maxzoom: 13
     srcdb:  {
-        url: test_area_z4_4_5.gdb
+        url: test_area_z4_10_11.gdb
         layer: elev
         minzoom: 10
         maxzoom: 13
         tiles: [
-        [5,10,16]
-        [5,11,16]
-        [6,19,32]
-        [6,19,33]
-        [6,22,35]
-        [6,22,36]
-        [6,22,37]
-        [6,23,35]
+        [6,41,20]
+        [6,42,19]
+        [6,42,20]
         ]
     }
     ogr2ogrPath: ogr2ogr
